@@ -1,9 +1,12 @@
 function Navbar() {
     return (
     <nav className="navbar">
-        <div className="logo">Natanael</div>
+        <h3 className="logo">Natanael</h3>
 
         <ul className="nav-links">
+             <li>
+                <a href="#hero">Home</a>
+            </li>
             <li>
                 <a href="#about">About</a>
             </li>
@@ -15,7 +18,7 @@ function Navbar() {
             </li>
             
              <li>
-                <a href="#about">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
