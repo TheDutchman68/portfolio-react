@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id="about" className="about">
+        <section id="about" className="about fade-in">
             <h2>About Me</h2>
             <p>
                 I'm a Frontend Developer focused on building modern, performant web applications using React.

@@ -45,14 +45,14 @@ function Contact() {
        
     }
         useEffect(() => {
-            if (success !== null){
+            if (success !== null ){
                 const timer = setTimeout(() => setSuccess(null), 2000);
                 return () => clearTimeout(timer);
             }
         }, [success])
 
     return(
-        <section id="contact" className="contact section">
+        <section id="contact" className="contact section fade-in">
             <h2>Contact Me</h2>
 
             <form onSubmit={handleSubmit} className="contact-form">
@@ -71,10 +71,16 @@ function Contact() {
                 </textarea>
             </label>
             <button type="submit" disabled={sending}>{sending ? "Sending..." : "Send Message"}</button>
-            {success === true && <p className="success-msg">Message sent successfully!</p>}
-            {success === false && <p className="error-msg">Failed to send message. Try again.</p>}
+        <div className="form-feedback">
+            {success === true && (<p className="feedback success fade">
+                <span className="icon">✔</span>
+                Message sent successfully!</p>)}
 
-            </form>
+            {success === false && (<p className="feedback error fade">
+                <span className="icon">✖</span>
+                Failed to send message. Try again.</p>)}
+        </div>
+        </form>
         </section>
     );
 

@@ -8,7 +8,6 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/natanael-dobie-776059249/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href="mailto:nd527589@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
                 </div>
-                <a href="#hero" className="back-to-top">Back to top &#8593;</a>
             </div>        
         </footer>
     );
