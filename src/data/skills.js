@@ -45,7 +45,7 @@ export const skills = [
     ]
   },
     {
-    category: "Tools",
+    category: "Database",
     items: [
         "SQL",
         "MSSM",
