@@ -46,15 +46,15 @@ Here are a few projects that demonstrate my skills:
 A simple React app to add, edit, delete and track job applications.
 
 - **Tech:** React, useState, useEffect, LocalStorage
-- **Demo:** [https://job-tracker-react-js-bice.vercel.app/](#)  
-- **Code:** [https://github.com/TheDutchman68/job-tracker-react-js](#)
+- **Demo:** https://job-tracker-react-js-bice.vercel.app/ 
+- **Code:** https://github.com/TheDutchman68/job-tracker-react-js
 
 ### [Job Board App](#)
 A full-featured job board app with search, filter, pagination and job details.
 
 - **Tech:** React, Styled Components, React Router, JSON Server
-- **Demo:** [https://job-board-app-ivory.vercel.app/](#)  
-- **Code:** [https://github.com/TheDutchman68/job-board-app](#)
+- **Demo:** https://job-board-app-ivory.vercel.app/ 
+- **Code:** https://github.com/TheDutchman68/job-board-app
 
 ---
 
@@ -70,7 +70,7 @@ Feel free to reach out!
 
 ## Live Portfolio
 
-Check out the live version of my portfolio: [https://portfolio-react-nu-taupe.vercel.app](#)
+Check out the live version of my portfolio: https://portfolio-react-nu-taupe.vercel.app
 
 ---
 
