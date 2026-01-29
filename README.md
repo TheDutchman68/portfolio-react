@@ -1,16 +1,82 @@
-# React + Vite
+# Natanael Dobie - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! I’m Natanael, a passionate Frontend Developer who loves building **modern, fast, and accessible web applications**. This portfolio showcases my skills, projects, and professional approach to frontend development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [About Me](#about-me)  
+- [Skills](#skills)  
+- [Projects](#projects)  
+- [Contact](#contact)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I specialize in creating **clean, maintainable code** and **intuitive user interfaces**. My approach focuses on performance, usability, and delivering polished digital experiences.
+
+- **Clean Code:** Writing readable, maintainable, and scalable code  
+- **Performance:** Optimized for speed and smooth interactions  
+- **UI/UX Mindset:** Building interfaces users love  
+- **Responsive Design:** Mobile-first approach for all devices  
+
+---
+
+## Skills
+
+Some of the technologies I work with:
+
+- **Frontend:** HTML5, CSS3,SASS, Bootstrap 
+- **Design & UX:** Figma, Marvel  
+- **Tools:** Git, GitHub, NPM, VS Code  
+- **Language:** JavaScript, TypeScript, Java,JavaFx
+- **WebTechnologies:** React, Vue, Nuxt, Vite, Node
+- **Datbase:** SQL, MSSM, MongoDB
+- **Testing:** Playwright, Cypress, Jest, Vitest
+
+---
+
+## Projects
+
+Here are a few projects that demonstrate my skills:
+
+### [Job Tracker](#)
+A simple React app to add, edit, delete and track job applications.
+
+- **Tech:** React, useState, useEffect, LocalStorage
+- **Demo:** [https://job-tracker-react-js-bice.vercel.app/](#)  
+- **Code:** [https://github.com/TheDutchman68/job-tracker-react-js](#)
+
+### [Job Board App](#)
+A full-featured job board app with search, filter, pagination and job details.
+
+- **Tech:** React, Styled Components, React Router, JSON Server
+- **Demo:** [https://job-board-app-ivory.vercel.app/](#)  
+- **Code:** [https://github.com/TheDutchman68/job-board-app](#)
+
+---
+
+## Contact
+
+Feel free to reach out!  
+
+- **Email:** [nd527589@gmail.com](mailto:nd527589@gmail.com)  
+- **LinkedIn:** [Natanael Dobie](https://www.linkedin.com/in/natanael-dobie-776059249/)  
+- **GitHub:** [TheDutchman68](https://github.com/TheDutchman68)  
+
+---
+
+## Live Portfolio
+
+Check out the live version of my portfolio: [https://portfolio-react-nu-taupe.vercel.app](#)
+
+---
+
+### Notes
+
+- Built with **React** and **modern CSS techniques**  
+- Includes **scroll reveal animations** for a polished user experience  
+- Fully **responsive** and optimized for desktop and mobile  
+
