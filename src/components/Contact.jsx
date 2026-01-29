@@ -52,8 +52,8 @@ function Contact() {
         }, [success])
 
     return(
-        <section id="contact" className="contact section fade-in">
-            <h2>Contact Me</h2>
+        <section id="contact" className="contact section fade-up">
+            <h2>Contact</h2>
 
             <form onSubmit={handleSubmit} className="contact-form">
             <label>

@@ -5,8 +5,10 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
+import useRevealOnScroll from "../hooks/useRevealOnScroll";
 
 function Home() {
+    useRevealOnScroll();
     return(
        <>
        <Hero/>

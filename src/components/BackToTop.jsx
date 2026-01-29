@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { IoIosArrowRoundUp } from "react-icons/io";
 function BackToTop() {
   const [visible, setVisible] = useState(false);
 
@@ -24,7 +24,7 @@ function BackToTop() {
       className={`back-to-top ${visible ? "show" : ""}`}
       onClick={scrollToTop}
     >
-      ↑
+      <IoIosArrowRoundUp />
     </button>
   );
 }
