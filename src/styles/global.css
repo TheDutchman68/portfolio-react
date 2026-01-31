@@ -40,6 +40,15 @@ h2{
   z-index: 1000;
 }
 
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.hamburger {
+  display: none;
+}
+
 .navbar a {
   text-decoration: none;
   color: #333;
@@ -564,10 +573,43 @@ html {
     font-size: 1.6rem;
   }
   .navbar {
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
   }
-   .hero h1 {
+
+  .hamburger{
+    display: block;
+    background:none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1100;
+  }
+  
+
+  .nav-links{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  
+}
+  .hero h1 {
     font-size: 2rem;
   }
   .hero h2 {
@@ -603,9 +645,6 @@ html {
   .btn {
     width: 100%;
     max-width: 280px;
-  }
-  section {
-    scroll-margin-top: 220px; 
   }
 }
 

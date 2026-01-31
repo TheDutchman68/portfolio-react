@@ -1,15 +1,13 @@
 import { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
+ useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -17,11 +15,19 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
-      <a href="#hero" >Home</a>
-      <a href="#about" >About</a>
-      <a href="#skills" >Skills</a>
-      <a href="#projects" >Projects</a>
-      <a href="#contact" >Contact</a>
+
+      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? <FaTimes /> : <FaBars /> }
+      </button>
+
+      <div className={`nav-links ${menuOpen ? "open" : " " }`}>
+      <a href="#hero" onClick={() => setMenuOpen(false)}>Home</a>
+      <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+      <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+      <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+      <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+      </div>
+      
     </nav>
   );
 }
