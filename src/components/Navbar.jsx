@@ -8,13 +8,16 @@ function Navbar() {
  useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
+
     };
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+    <nav className={`navbar ${ scrolled ? "navbar-scrolled" : ""}`}>
 
       <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <FaTimes /> : <FaBars /> }

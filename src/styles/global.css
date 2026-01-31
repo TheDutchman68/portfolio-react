@@ -11,9 +11,10 @@ body {
   color: #333;
 }
 
+
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; 
 }
 
 section{
