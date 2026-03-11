@@ -37,10 +37,10 @@ export const skills = [
     category: "Web technologies",
     items: [
         "React",
+        "Angular",
         "Vue",
         "Nuxt",
         "Vite",
-        "Angular",
         "Node"
     ]
   },
