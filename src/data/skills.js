@@ -17,6 +17,7 @@ export const skills = [
         ".NET",
         "JavaFx",
         "Koa",
+        "Express",
         "JavaSpring",
         "Blazor",
         "Kotlin"
@@ -51,7 +52,8 @@ export const skills = [
         "MSSM",
         "MongoDB",
         "PostgreSQL",
-        "GraphQL"
+        "GraphQL",
+        "Azure SQL"
     ]
   },
     {
@@ -68,7 +70,9 @@ export const skills = [
     items: [
       "Git & GitHub",
       "Vercel",
-      "VS Code"
+      "Render",
+      "VS Code",
+      "Docker",
     ]
   },
 ];
