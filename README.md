@@ -1,6 +1,6 @@
-# Natanael Dobie - Frontend Developer Portfolio
+# Natanael Dobie - Full-Stack Developer (React & .NET)
 
-Welcome to my personal portfolio! I’m Natanael, a passionate Frontend Developer who loves building **modern, fast, and accessible web applications**. This portfolio showcases my skills, projects, and professional approach to frontend development.
+Welcome to my personal portfolio. I’m Natanael, a full-stack developer focused on building modern, fast, and scalable web applications using **React and .NET**. This portfolio highlights my projects, technical skills, and approach to real-world development.
 
 ---
 
@@ -31,9 +31,9 @@ Some of the technologies I work with:
 - **Frontend:** HTML5, CSS3,SASS, Bootstrap 
 - **Design & UX:** Figma, Marvel  
 - **Tools:** Git, GitHub, NPM, VS Code  
-- **Language:** JavaScript, TypeScript, Java,JavaFx
+- **Language:** JavaScript, TypeScript, Java, JavaFx, .NET
 - **WebTechnologies:** React, Vue, Nuxt, Vite, Node
-- **Datbase:** SQL, MSSM, MongoDB
+- **Datbase:** SQL, MSSM, MongoDB, Azure SQL
 - **Testing:** Playwright, Cypress, Jest, Vitest
 
 ---
@@ -43,9 +43,9 @@ Some of the technologies I work with:
 Here are a few projects that demonstrate my skills:
 
 ### [Job Tracker](#)
-A simple React app to add, edit, delete and track job applications.
+A full-stack job tracking app with authentication, CRUD operations, and application status management.
 
-- **Tech:** React, useState, useEffect, LocalStorage
+- **Tech:** React, Node.js, Express, MongoDB, JWT, REST API
 - **Demo:** https://job-tracker-react-js-bice.vercel.app/ 
 - **Code:** https://github.com/TheDutchman68/job-tracker-react-js
 
@@ -55,6 +55,13 @@ A full-featured job board app with search, filter, pagination and job details.
 - **Tech:** React, Styled Components, React Router, JSON Server
 - **Demo:** https://job-board-app-ivory.vercel.app/ 
 - **Code:** https://github.com/TheDutchman68/job-board-app
+
+### [Job Pilot App](#)
+A full-stack job tracking app for managing applications, tracking progress, and organizing job search workflows.
+
+- **Tech:** React, .NET 8, ASP.NET Core, Azure SQL, Render, JWT, REST API
+- **Demo:** https://job-tracker-frontend-zeta-ten.vercel.app
+- **Code:** https://github.com/TheDutchman68/job-tracker-frontend
 
 ---
 
