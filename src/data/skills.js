@@ -9,10 +9,10 @@ export const skills = [
   {
     category: "Language",
     items: [
-        "Python",
         "JavaScript",
         "TypeScript",
         "Java",
+        "Python",
         "C#",
         ".NET",
         "JavaFx",
@@ -48,9 +48,9 @@ export const skills = [
     {
     category: "Database",
     items: [
+        "MongoDB",
         "SQL",
         "MSSM",
-        "MongoDB",
         "PostgreSQL",
         "GraphQL",
         "Azure SQL"

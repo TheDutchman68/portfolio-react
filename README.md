@@ -1,6 +1,6 @@
-# Natanael Dobie - Full-Stack Developer (React & .NET)
+# Natanael Dobie - Frontend Developer (React & TypeScript)
 
-Welcome to my personal portfolio. I’m Natanael, a full-stack developer focused on building modern, fast, and scalable web applications using **React and .NET**. This portfolio highlights my projects, technical skills, and approach to real-world development.
+Welcome to my personal portfolio. I'm Natanael, a frontend developer focused on building modern, fast, and scalable web applications using **React and TypeScript**. This portfolio highlights my projects, technical skills, and approach to real-world development.
 
 ---
 
@@ -28,12 +28,12 @@ I specialize in creating **clean, maintainable code** and **intuitive user inter
 
 Some of the technologies I work with:
 
-- **Frontend:** HTML5, CSS3,SASS, Bootstrap 
+- **Frontend:** HTML5, CSS3, SASS, Bootstrap 
 - **Design & UX:** Figma, Marvel  
 - **Tools:** Git, GitHub, NPM, VS Code  
 - **Language:** JavaScript, TypeScript, Java, JavaFx, .NET
 - **WebTechnologies:** React, Vue, Nuxt, Vite, Node
-- **Datbase:** SQL, MSSM, MongoDB, Azure SQL
+- **Datbase:** MongoDB, SQL, MSSM, Azure SQL
 - **Testing:** Playwright, Cypress, Jest, Vitest
 
 ---
@@ -55,13 +55,6 @@ A full-featured job board app with search, filter, pagination and job details.
 - **Tech:** React, Styled Components, React Router, JSON Server
 - **Demo:** https://job-board-app-ivory.vercel.app/ 
 - **Code:** https://github.com/TheDutchman68/job-board-app
-
-### [Job Pilot App](#)
-A full-stack job tracking app for managing applications, tracking progress, and organizing job search workflows.
-
-- **Tech:** React, .NET 8, ASP.NET Core, Azure SQL, Render, JWT, REST API
-- **Demo:** https://job-tracker-frontend-zeta-ten.vercel.app
-- **Code:** https://github.com/TheDutchman68/job-tracker-frontend
 
 ---
 
